@@ -1,7 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Project Mockup</title>
+ <!DOCTYPE html>
+ <html>
+ <head>
+  <title>Login Page</title>
+
 
   <!-- Connect to Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -24,14 +25,146 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        <p class="lead">
-          This document is already set up for you with links to all of the Bootstrap assets. Replace this content with your own mockup of an important screen in your app idea; it could be a landing page, or a homepage, or a sign-up form, or anything you like.
-        </p>
+  <style>
+    .featured {
+      padding-left=10px
+      border: 1px rgpa(100,0,100,1) solid;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      box-shadow: 2px 2px 5px 0 gray;
+    }
+    h3 {
+
+    }
+  }
+</style>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <h3><a href="http://www.healinghh.org"><img src="http://graph.facebook.com/healinghealthandhope/picture" width="70" height="70"> Healing, Health, & Hope</h3></a>
+    </div>
+    <div class="collapse navbar-collapse navbar-right" >
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Auction Items<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#page-headers">All Items</a></li>
+            <li><a href="#typography">Art</a></li>
+            <li><a href="#buttons">Collectables</a></li>
+            <li><a href="#navbars">Dining</a></li>
+            <li><a href="#tables">Electronics</a></li>
+            <li><a href="#forms">Gift Certificates</a></li>
+            <li><a href="#navs">Health/Beauty</a></li>
+            <li><a href="#indicators">Home/Garden</a></li>
+            <li><a href="#progress-bars">Sports</a></li>
+            <li><a href="#containers">Travel/Leisure</a></li>
+          </ul>
+        </li>
+        <li>
+         <a href="#buttons" class="btn btn-default">Log In</a>
+       </li>
+       <li>
+        <a href="#buttons" class="btn btn-default">Sign Up</a>
+      </li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="container">
+  <div class="row header">
+    <div class="col-md-6">
+      <h3>Account Login</h3>
+      <form action="cheatsheet.html">
+        <div class="form-group">
+          <label class="control-label" for="regular-input">User Name:</label>
+          <input name="regular" class="form-control" id="regular-input" type="text" value="user name">
+        </div>
+      </form>
+      <form action="cheatsheet.html">
+        <div class="form-group">
+          <label class="control-label" for="regular-input">Password:</label>
+          <input name="regular" class="form-control" id="regular-input" type="text" value="password">
+        </div>
+      </form>
+      <hr>
+      <a href="#buttons" class="btn btn-primary">Log In</a>
+    </div>
+    <div class="col-md-6">
+      <h3>Create Account</h3>
+      <form action="cheatsheet.html">
+        <div class="form-group">
+          <label class="control-label" for="regular-input">Email:</label>
+          <input name="regular" class="form-control" id="regular-input" type="text" value="email address">
+        </div>
+      </form>
+      <form action="cheatsheet.html">
+        <div class="form-group">
+          <label class="control-label" for="regular-input">Re-enter Email:</label>
+          <input name="regular" class="form-control" id="regular-input" type="text" value="re-enter email">
+        </div>
+      </form>
+      <form action="cheatsheet.html">
+        <div class="form-group">
+          <label class="control-label" for="regular-input">First Name:</label>
+          <input name="regular" class="form-control" id="regular-input" type="text" value="first name">
+        </div>
+      </form>
+      <form action="cheatsheet.html">
+        <div class="form-group">
+          <label class="control-label" for="regular-input">Last Name:</label>
+          <input name="regular" class="form-control" id="regular-input" type="text" value="last name">
+        </div>
+      </form>
+      <form action="cheatsheet.html">
+        <div class="form-group">
+          <label class="control-label" for="regular-input">User Name:</label>
+          <input name="regular" class="form-control" id="regular-input" type="text" value="user name">
+        </div>
+      </form>
+      <form action="cheatsheet.html">
+        <div class="form-group">
+          <label class="control-label" for="regular-input">Password:</label>
+          <input name="regular" class="form-control" id="regular-input" type="text" value="password">
+        </div>
+      </form>
+      <form action="cheatsheet.html">
+        <div class="form-group">
+          <label class="control-label" for="regular-input">Re-enter Password:</label>
+          <input name="regular" class="form-control" id="regular-input" type="text" value="re-enter password">
+        </div>
+      </form>
+      <form action="cheatsheet.html">
+        <div class="form-group">
+          <label class="control-label" for="regular-input">Phone Number:</label>
+          <input name="regular" class="form-control" id="regular-input" type="text" value="e.g. (219)769-4465">
+        </div>
+      </form>
+      <hr>
+
+        <a href="#buttons" class="btn btn-primary">Create New Account</a>
+
+        <hr>
       </div>
     </div>
-  </div>
-</body>
-</html>
+    <div class="row">
+      <div class="col-xs-12" align="right">
+        <h6>follow us on <a href="http://www.facebook.com/healinghealthandhope" target="_blank">Facebook</a>  <a href="http://www.twitter.com/hlnghlthhpe" target="_blank">Twitter</a>
+        </h6>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12" align="center">
+        2004-2015 Healing, Health, & Hope, Inc.
+      </div>
+    </div>
+  </body>
+  </html>
